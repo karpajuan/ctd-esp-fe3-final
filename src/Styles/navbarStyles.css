@@ -1,0 +1,94 @@
+nav{
+display: flex;
+width: 100%;
+align-items: center;
+padding: 2rem;
+justify-content: flex-end;
+}
+
+.navbar{
+display: flex;
+background-color: #d1c9ff;
+height: 56px;
+width: 100%;
+justify-content: space-around;
+align-items: center;
+padding: 2% 0% 2% 0%;
+
+}
+
+
+.odonto{
+width: 100%;
+display: flex;
+font-weight: 400;
+font-size: 30px;
+padding-left: 1%;
+}
+
+.navbar nav{
+font-weight: 500;
+margin-right: 1vw;
+font-size: 1.4vw;
+}
+
+.navbar nav button{
+border: none;
+cursor: pointer;
+}
+.navbar nav .theme-btn:hover{
+background-color: rgb(136, 136, 136);
+filter: brightness(120%);
+}
+.back-btn:hover{
+color: rgb(136, 136, 136);
+}
+
+
+.back-btn{
+color: #000;
+font-size: 20px;
+font-weight: bold;
+background-color: rgb(228, 230, 229);
+margin: 5px;
+}
+
+.navbar nav .theme-btn{
+margin:0%;
+padding: 0px 1px 1px 0px;
+background-color: #000000c4;
+height: 25px;
+width: 25px;
+font-size: 15px;
+border-radius: 5px;
+
+}
+
+
+.dark .navbar{
+
+background-color: #172443;
+color:aliceblue ;
+
+}
+.dark h3{
+
+color:aliceblue ;
+
+}
+
+.dark a .nav-h3{
+    color:white
+    }
+.navbar nav .theme-btn{
+background-color:#f4f3f3;
+}
+
+.dark .navbar nav .theme-btn:hover{
+filter: brightness(150%);
+}
+
+.dark a .nav-h3:hover{
+color:#c299da;
+}
+
